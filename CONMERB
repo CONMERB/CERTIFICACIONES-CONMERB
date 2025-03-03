@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Personal</title>
+    <title>Certificado de Abdon Mamani Rojas</title>
     <style>
         /* Reset de márgenes y padding */
         * {
@@ -14,7 +14,7 @@
 
         /* Estilo general de la página */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             background-color: #f4f4f4;
             color: #333;
             display: flex;
@@ -24,46 +24,87 @@
             padding: 20px;
         }
 
-        /* Contenedor para el nombre */
-        .name-container {
+        /* Contenedor principal del certificado */
+        .certificate-container {
             background-color: #ffffff;
             padding: 40px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
             width: 80%;
-            max-width: 600px;
+            max-width: 800px;
+            text-align: center;
         }
 
-        /* Estilo para el nombre */
-        .name {
-            font-size: 3rem;
+        /* Título del certificado */
+        .certificate-title {
+            font-size: 2.5rem;
+            color: #D32F2F; /* Color rojo de Bolivia */
             font-weight: bold;
-            color: #2C3E50; /* Color gris oscuro */
             margin-bottom: 20px;
         }
 
-        /* Estilo de fondo */
-        .background {
-            background-color: #3498db; /* Azul */
-            padding: 10px;
-            color: #ffffff;
-            font-size: 1.2rem;
+        /* Subtítulo */
+        .certificate-subtitle {
+            font-size: 1.5rem;
+            color: #388E3C; /* Color verde de Bolivia */
+            margin-bottom: 30px;
+        }
+
+        /* Nombre del certificado */
+        .name {
+            font-size: 2rem;
             font-weight: bold;
+            color: #FBC02D; /* Color amarillo de Bolivia */
+            margin-bottom: 10px;
+        }
+
+        /* Número de certificado */
+        .cert-number {
+            font-size: 1.2rem;
+            font-style: italic;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        /* Fondo decorativo */
+        .background-bar {
+            width: 100%;
+            height: 10px;
+            background: linear-gradient(90deg, #D32F2F, #FBC02D, #388E3C);
+            margin-top: 20px;
             border-radius: 5px;
         }
     </style>
 </head>
 <body>
 
-    <!-- Contenedor principal -->
-    <div class="name-container">
-        <div class="background">
-            Mi Nombre es:
+    <!-- Contenedor principal del certificado -->
+    <div class="certificate-container">
+        <!-- Barra decorativa -->
+        <div class="background-bar"></div>
+
+        <!-- Título -->
+        <div class="certificate-title">
+            CONFEDERACIÓN NACIONAL DE MAESTROS DE EDUCACIÓN RURAL DE BOLIVIA
         </div>
+
+        <!-- Subtítulo -->
+        <div class="certificate-subtitle">
+            CERTIFICA A:
+        </div>
+
+        <!-- Nombre del certificado -->
         <div class="name">
-            RONALD MAMANI CANCARI
+            ABDON MAMANI ROJAS
         </div>
+
+        <!-- Número de certificado -->
+        <div class="cert-number">
+            4753027
+        </div>
+        
+        <!-- Barra decorativa -->
+        <div class="background-bar"></div>
     </div>
 
 </body>
